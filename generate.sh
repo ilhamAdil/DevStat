@@ -11,7 +11,7 @@ npm install nodemon concurrently
         "server": "nodemon server"
     },
     Lalu inisilisasi segala export express dan juga port
-6. buat koneksi dengan mongodb dengan membaut folder config yang isinya db.js (inisialisasi koneksi) dan default.json diisi dengan mongoURI
+6. buat koneksi dengan mongodb dengan membuat folder config yang isinya db.js (inisialisasi koneksi) dan default.json diisi dengan mongoURI
 database connection, invoke di server.js
 7. buat routes/api beserta routes-routesnya, lalu invoke di server.js
 8. Menggunakan, mongoose untuk mendefinisikan model skema database
